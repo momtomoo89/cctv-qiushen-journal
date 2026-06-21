@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>球神直播 – 站点使用说明与功能介绍</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #f3f5f8;
+      color: #1c1e24;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
+      line-height: 1.65;
+      padding: 2.2rem 1.5rem 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 720px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 28px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.05);
+      padding: 2.8rem 2.2rem;
+      transition: all 0.2s ease;
+    }
+    @media (max-width: 520px) {
+      body { padding: 1.2rem 0.8rem 3rem; }
+      .container { padding: 1.8rem 1.2rem; border-radius: 20px; }
+    }
+    h1 {
+      font-size: 2.3rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.4rem;
+      color: #16181e;
+    }
+    .subhead {
+      color: #4f566b;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 2.4rem;
+      border-left: 4px solid #90b4f0;
+      padding-left: 1.1rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 520;
+      margin-top: 2.4rem;
+      margin-bottom: 0.7rem;
+      color: #1f2937;
+    }
+    p {
+      margin-bottom: 1.1rem;
+      font-size: 1rem;
+      color: #2b3040;
+    }
+    .highlight-card {
+      background: #f0f4fe;
+      border-radius: 18px;
+      padding: 1.3rem 1.5rem;
+      margin: 1.8rem 0 1.2rem;
+    }
+    .highlight-card p {
+      margin-bottom: 0.4rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0.2rem;
+      margin: 1rem 0 1.4rem;
+    }
+    ul li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 0.55rem;
+      font-size: 1rem;
+      color: #242937;
+    }
+    ul li::before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: #6187d9;
+      font-weight: 550;
+    }
+    .faq-item {
+      margin-top: 1.2rem;
+      border-top: 1px solid #e3e7f0;
+      padding-top: 1rem;
+    }
+    .faq-question {
+      font-weight: 530;
+      color: #1e2533;
+    }
+    .faq-answer {
+      margin-top: 0.2rem;
+      color: #3e4558;
+    }
+    .link-note {
+      background: #f9fafc;
+      border-radius: 16px;
+      padding: 1.2rem 1.4rem;
+      margin: 2.2rem 0 0;
+      border: 1px solid #e6eaf2;
+      font-size: 0.95rem;
+    }
+    a {
+      color: #1e5cd6;
+      text-decoration: none;
+      font-weight: 480;
+      border-bottom: 1px solid transparent;
+      transition: border 0.15s;
+    }
+    a:hover {
+      border-bottom-color: #1e5cd6;
+    }
+    .small-meta {
+      font-size: 0.85rem;
+      color: #717a8c;
+      margin-top: 2rem;
+      text-align: right;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid #e2e7f0;
+      margin: 2rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <h1>球神直播</h1>
+  <div class="subhead">产品说明 · 使用思路 · 站点简介</div>
+
+  <p>
+    <a href="https://cctv-qiushen.com">球神直播</a>是一个面向体育赛事观看需求的线上服务站点。平台以聚合赛事信号与实时信息为核心，主要提供覆盖足球、篮球等主流运动的直播流引导与赛程参考。站点并非内容生产方，而是通过渠道整合为使用者降低查找优质直播源的时间成本。以下从功能亮点、适用场景与可信访问三个方面展开说明。
+  </p>
+
+  <h2>功能亮点速览</h2>
+  <div class="highlight-card">
+    <p><strong>赛事覆盖全面</strong> – 涵盖欧洲五大联赛、NBA、中超、欧冠以及各类杯赛与国家队赛事，支持多时段比赛预览。</p>
+    <p><strong>多线路选择</strong> – 针对同一场次通常提供两条以上信号链路，部分链路支持清晰度切换，用户可根据当前网络环境灵活选用。</p>
+    <p><strong>赛程与实时比分</strong> – 页面内嵌简易赛程表与比分更新模块，无需跳转即可了解赛事进程，辅助观赛决策。</p>
+    <p><strong>低干预界面</strong> – 无弹窗式推广，信息展示以实用为主，阅读与导航体验相对清爽。</p>
+  </div>
+
+  <h2>使用建议与场景</h2>
+  <p>
+    对于日常观赛用户，建议在比赛开始前 10–15 分钟打开 <a href="https://cctv-qiushen.com">球神直播</a>，利用赛程区确认开赛时间及可用信号。如果某一直播链路出现卡顿或延迟，可切换至备用线路，多数情况下备用信号稳定性相近。移动设备浏览器同样适配良好，横竖屏均可正常显示直播引导界面。
+  </p>
+  <p>
+    对于同时关注多场赛事的用户，可利用分栏或标签页同时保留两到三个比赛页面。站点无强制注册或付费要求，但建议保持浏览器为最新版本以获得最佳兼容性。在公共网络环境下，部分链路可能因地域限制无法加载，可尝试切换线路或稍后重试。
+  </p>
+
+  <h2>可信但克制的访问说明</h2>
+  <p>
+    <a href="https://cctv-qiushen.com">球神直播</a>本身不存储任何视频文件，所有直播信号均指向第三方公开内容。站点运营方未声明拥有赛事版权，也不提供下载、回放或赌博相关服务。访问者应知悉直播源可能因版权调整或服务器维护而临时失效，建议合理规划观赛方式。平台未收集个人隐私数据，仅保留基础访问日志用于稳定性优化。
+  </p>
+
+  <h2>常见疑问摘要</h2>
+  <div class="faq-item">
+    <div class="faq-question">Q：是否需要安装插件或注册账号？</div>
+    <div class="faq-answer">A：不需要。站点完全基于浏览器，不要求注册、登录或下载额外组件。部分直播链路可能需要允许弹出窗口，建议在浏览器设置中临时放行。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-question">Q：为何有时信号加载较慢？</div>
+    <div class="faq-answer">A：直播信号来源于第三方，加载速度受分发节点、本地网络及高峰期并发数影响。建议尝试切换线路，或避开开赛瞬间的集中请求高峰。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-question">Q：站点是否提供赛事预告推送？</div>
+    <div class="faq-answer">A：目前未提供主动推送功能。赛程信息在页面内以列表形式呈现，需要使用者自行关注。后续可能增加简单的日历订阅功能，暂无具体时间表。</div>
+  </div>
+
+  <hr>
+
+  <div class="link-note">
+    <p style="margin-bottom:0.3rem"><strong>关于本页</strong> – 以上内容仅为产品功能与使用思路的客观介绍，不构成任何诱导或承诺。如有进一步疑问，可返回 <a href="https://cctv-qiushen.com">球神直播</a> 主页参考最新公告与说明。</p>
+  </div>
+
+  <div class="small-meta">
+    站点版本参考 · 2025
+  </div>
+
+</div>
+</body>
+</html>
